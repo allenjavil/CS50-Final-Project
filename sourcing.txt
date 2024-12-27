@@ -1,0 +1,9 @@
+
+Using @keyframes in CSS to animate the change in gradient and create title features
+https://www.youtube.com/watch?v=b_8fHNIHFk4&ab_channel=CodingPlay
+https://www.youtube.com/shorts/PT3F_cFpqL8
+
+Maze Generation Idea with Prim's Generation (base to build mazes that served as a base for my levels):
+https://jonathanzong.com/blog/2012/11/06/maze-generation-with-prims-algorithm
+
+

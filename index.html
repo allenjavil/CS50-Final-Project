@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Login Section -->
+  <div id="login-section">
+    <div id="title-container">
+      <h1 id="mictlan-title">Mictlán Maze</h1>
+    </div>
+    <p id="message"></p>
+    <form id="signup-form" style="display: none;">
+      <h2>Sign Up</h2>
+      <input type="text" id="signup-username" placeholder="Enter your username" required>
+      <input type="password" id="signup-password" placeholder="Enter your password" required>
+      <button type="submit">Sign Up</button>
+      <button type="button" onclick="showLogin()">Go to Login</button>
+    </form>
+    <form id="login-form">
+      <h2>Login</h2>
+      <input type="text" id="login-username" placeholder="Enter your username" required>
+      <input type="password" id="login-password" placeholder="Enter your password" required>
+      <button type="submit">Login</button>
+      <button type="button" onclick="showSignup()">Create an Account</button>
+    </form>
+  </div>
+
+  <!-- prompting the call to the game section -->
+  <div id="game-section" style="display: none;">
+    <div id="game-container">
+      <div id="game-title"></div>
+      <canvas id="maze-canvas" width="510" height="510"></canvas>
+    </div>
+    <button onclick="endGame(false)">End Game</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
