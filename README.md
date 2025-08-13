@@ -1,6 +1,10 @@
 # Mictlan Maze Game
 Hi! My name is Allen Garcia! I tried to create a game based on aztec mythology, check it out! Thank you for reading.
 
+[▶️ **Play the game now**](https://allenjavil.github.io/CS50-Final-Project/)  
+
+A browser-based maze game built with HTML/CSS/JavaScript.
+
 ## Introduction
 
 The idea for this project came from the Aztec mythological journey through Mictlán, where souls had to pass through nine levels filled with challenges to reach their final destination. In this game, you, as the player, will traverse through mazes inspired by this myth. Each level's design dynamics are inspired by the actual myth stories. I'd have liked to include more details/explanation prompts throughout the game, but I am happy to explain them here.
